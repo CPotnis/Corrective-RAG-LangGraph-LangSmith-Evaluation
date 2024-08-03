@@ -1,0 +1,27 @@
+name: corrective-rag
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - jupyter
+  - ipykernel
+  - pip:
+    - langchain
+    - langchain-openai
+    - langchain_ollama
+    - langchain-community
+    - langchainhub
+    - langgraph
+    - langsmith
+    - python-dotenv
+    - tiktoken
+    - ollama
+    - tavily-python
+    - pydantic
+    - typing-extensions
+    - ipython
+    - pypdf
+    - scikit-learn
+    
